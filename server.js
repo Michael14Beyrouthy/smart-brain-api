@@ -17,7 +17,8 @@ const db = knex({
     port: 5432,
     user : 'postgres_mdr6_user',
     password : 'DAjSdpGTzk92ndm1F7sKocZDIIsR0QBN',
-    database : 'postgres_mdr6'
+    database : 'postgres_mdr6',
+    ssl: true
   }
 });
 
